@@ -1,0 +1,322 @@
+@font-face 
+{
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Bold.ttf");
+}
+
+
+body {
+    background-color:  #ebf5fb ;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    width: 1400px;
+    height: 89px;
+    font-family: "first";
+    
+}
+
+
+hr {
+    color: #5F5F83;
+    rotate: 90deg;
+    width: 100px;
+}
+
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.MainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Content {
+    background-color: #FFFFFF;
+    width: 1400px;
+    height: 3000px;
+}
+
+
+#Line1 {
+    position: relative;
+    left: 100px;
+    top: 89px;
+}
+
+
+.Refresh {
+    left: 100px; 
+    top: 31px; 
+    position: relative;
+    background: linear-gradient(to bottom, #5F5F83, #0A3FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-family: "Raleway"; 
+    font-weight: 700; 
+    line-height: 26px; 
+    word-wrap: break-word;
+}
+
+
+.Topics {
+    position: relative;
+    left: 499px;
+    top: -5px; 
+    color: #2242B6; 
+    font-size: 16px; 
+    font-family: "Raleway"; 
+    word-wrap: break-word;
+    font-weight: 400; 
+    line-height: 20.80px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    position: relative;
+    background: rgba(95, 95, 131, 0.24);
+    border-radius: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    display: inline-flex;
+    
+}
+
+
+.Practice {
+    left: 651px; 
+    top: -35px; 
+    position: relative; 
+    color: #222222; 
+    font-size: 16px; 
+    font-family: "Raleway";
+    font-weight: 400; 
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+
+.Specialists {
+    left: 788px; 
+    top: -55px; 
+    position: relative; 
+    color: #222222; 
+    font-size: 16px; 
+    font-family: "Raleway"; 
+    font-weight: 400; 
+    line-height: 20.80px; 
+    word-wrap: break-word
+}
+
+
+.IntroDiv {
+    position: relative;
+    left: 145px;
+    top: 143px;
+    width: 1117px;
+    height: 488px;
+}
+
+
+.Intro {
+    position: relative;
+    top: 157px;
+    background: linear-gradient(to bottom, #000053, #0A3FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+
+.Text {
+    position: absolute; 
+    width: 630px; 
+    left: 0px; 
+    top: 219px; 
+    color: #5F5F83; 
+    font-size: 24px; 
+    font-family: "Raleway"; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+
+.Frame1 {
+    width: 1115px; 
+    height: 321px; 
+    left: 168px; 
+    top: 226px; 
+    position: absolute
+}
+
+
+.Frame2 {
+    width: 1245px; 
+    height: 296px; 
+    left: -84px; 
+    top: 1385px; 
+    position: absolute;
+}
+
+
+.Rectangle1 {
+    width: 1154px; 
+    height: 300px; 
+    left: 66px; 
+    top: 0px; 
+    position: absolute; 
+    background: #5F5F83; 
+    border-radius: 60px;
+}
+
+
+.Rectangle2 {
+    width: 1086px; 
+    height: 208px; 
+    left: 100px; 
+    top: 47px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 60px;
+}
+
+
+.question {
+    width: 1150px; 
+    height: 125px; 
+    left: -10px; 
+    top: 1942px; 
+    position: absolute; 
+    text-align: center;
+    background: linear-gradient(to bottom, #5F5F83, #C4C4E4); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px; 
+    font-family: "Raleway"; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+
+.asked {
+    position: absolute;
+    top: 2100px;
+    left: 250px;
+    color: #5F5F83;
+    font-size: 24px; 
+    font-family: "Raleway"; 
+    font-weight: 500; 
+    line-height: 31.20px; 
+    word-wrap: break-word;
+}
+
+
+#Fly {
+    width: 488px; 
+    height: 488px; 
+    left: 629px; 
+    top: -28px; 
+    position: absolute
+}
+
+
+#friend {
+    width: 612px; 
+    left: 519px; 
+    top: 913px; 
+    position: absolute; 
+    text-align: center; 
+    color: #4C4C86; 
+    font-size: 36px; 
+    font-family: "Raleway"; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+
+#textaboutfriend {
+    width: 510px; 
+    left: 542px; 
+    top: 964px; 
+    position: absolute; 
+    color: #5F5F83; 
+    font-size: 26px; 
+    font-family: "Raleway"; 
+    font-weight: 300; 
+    word-wrap: break-word;
+}
+
+
+#advice {
+    left: 70px; 
+    top: 104px; 
+    position: absolute; 
+    text-align: center; 
+    color: #4C4C86; 
+    font-size: 37px; 
+    font-family: "Raleway"; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+
+#Heart {
+    width: 114px;
+    height: 114px;
+    left: 586px;
+    top: 221px; 
+    position: absolute;
+}
+
+
+#btn1 {
+    position: absolute;
+    top: 1729px;
+    left: 440px;
+    width: 230px;
+    height: 75px;
+    position: absolute;
+    font-family: "Raleway";
+    color: #5F5F83;
+    background-color: #CFD9FA;
+    border: 10px white;
+    border-radius: 25px;
+    font-size: 26px;
+}
+
+
+#btn1:hover 
+{
+    background-color: #5F5F83;
+    color: #CFD9FA;
+}
+
+
+#btn1:active 
+{
+    box-shadow: #CFD9FA;
+    transform: translateY(4px);
+}
+
+
+#Pointer {
+    position: absolute;
+    top: 1780px;
+    left: 650px;
+}
